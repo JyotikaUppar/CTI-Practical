@@ -1,0 +1,9 @@
+PRACTICAL 9 — PROVISIONAL ACTIVITY PROFILE
+Tracking label: UNATTRIBUTED-01 (not a named threat group)
+Event types: email=1, file=1, network=5, process=1, registry=1
+Observed: Office -> PowerShell: True
+Observed: Run key write: True
+Observed: repeated network events: 5
+Hypothesis: operator may seek persistent access; objective unverified.
+Confidence: moderate for linked host activity; low for actor identity.
+Do not attribute nationality, name, or motivation from these TTPs.

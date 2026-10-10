@@ -1,0 +1,4 @@
+PRACTICAL 11 — SIEM-LIKE LOG QUERY: all
+Office -> PowerShell: [('E02', 'WS-25')]
+Feed-enriched network matches: [('E05', 'WS-25', 'malware-example.test'), ('E06', 'WS-25', 'malware-example.test'), ('E07', 'WS-25', 'malware-example.test'), ('E08', 'WS-25', 'malware-example.test'), ('E09', 'WS-25', 'malware-example.test')]
+These are analytic matches, not confirmed incidents.

@@ -1,0 +1,11 @@
+PRACTICAL 7 — EVIDENCE-BASED ATT&CK MAPPING
+E01 T1566.001  candidate  Attachment delivery observed; maliciousness unknown
+E02 T1059.001  observed   PowerShell process in log
+E04 T1547.001  observed   Run key write in log
+E05 T1071.001  candidate  HTTP contact; C2 intent unverified
+E06 T1071.001  candidate  HTTP contact; C2 intent unverified
+E07 T1071.001  candidate  HTTP contact; C2 intent unverified
+E08 T1071.001  candidate  HTTP contact; C2 intent unverified
+E09 T1071.001  candidate  HTTP contact; C2 intent unverified
+E09 T1041      hypothesis Large POST; contents unavailable
+E10 remains unmapped: generic update traffic is not a C2 technique match.

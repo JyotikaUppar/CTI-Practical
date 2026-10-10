@@ -1,0 +1,4 @@
+PRACTICAL 12 — THREAT HUNT
+Hypothesis: Office -> PowerShell followed by feed match within 30 minute(s).
+WS-25 E02 -> E05, E06, E07, E08, E09
+Validate authorized scripts, feed provenance, and event completeness.

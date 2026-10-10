@@ -1,0 +1,4 @@
+type,value,confidence,first_seen,last_seen,source_note
+IPv4,203.0.113.45,80,2026-09-23,2026-09-23,Second simulated observation
+Domain,malware-example.test,90,2026-09-23,2026-09-23,Second simulated observation
+Email,security-alert@example.test,55,2026-09-23,2026-09-23,Unverified sender association

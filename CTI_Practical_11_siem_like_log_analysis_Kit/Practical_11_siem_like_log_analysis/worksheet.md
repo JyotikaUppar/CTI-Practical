@@ -1,0 +1,21 @@
+# Student Worksheet — Practical 11 SIEM-Like Log Analysis
+
+Name: __________  Roll number: __________  Date: __________
+
+## Input observations
+Which records or feed rows did you inspect? List IDs or values and their sources.
+
+| Record or value | What is directly observed? | Source | Confidence or limitation |
+|---|---|---|---|
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+## Interpretation
+What does the evidence suggest? What alternative explanation could fit?
+
+## Extension result
+Record the command/parameter change, output difference, and reason.
+
+## Conclusion and next evidence
+Give a concise conclusion, its confidence, and two checks that would strengthen or disprove it.

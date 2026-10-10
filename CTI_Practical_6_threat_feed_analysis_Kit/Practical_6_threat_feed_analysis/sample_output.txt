@@ -1,0 +1,7 @@
+PRACTICAL 6 — THREAT FEED COMPARISON
+Minimum score for review: 70
+Domain malware-example.test                 sources=2 scores=feed_alpha.csv:85, feed_beta.csv:90 -> INVESTIGATE
+Email  security-alert@example.test          sources=1 scores=feed_beta.csv:55 -> MONITOR / VALIDATE
+IPv4   192.168.1.25                         sources=1 scores=feed_alpha.csv:20 -> INTERNAL CONTEXT — verify, do not block as a remote IP
+IPv4   203.0.113.45                         sources=2 scores=feed_alpha.csv:75, feed_beta.csv:80 -> INVESTIGATE
+A match in two mock feeds does not establish source independence.

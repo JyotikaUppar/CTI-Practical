@@ -1,0 +1,14 @@
+PRACTICAL 13 — INCIDENT CASE: WS-25
+Time span: 2026-09-23T10:00:00 to 2026-09-23T10:25:00
+E01 2026-09-23T10:00:00 Suspicious email with invoice.docm attachment delivered
+E02 2026-09-23T10:03:00 WINWORD.EXE launched powershell.exe
+E03 2026-09-23T10:04:00 Script file observed in Public folder; hash is a fictional exercise value
+E04 2026-09-23T10:05:00 Run key pointing to Public folder script observed
+E05 2026-09-23T10:07:00 HTTP GET to simulated destination
+E06 2026-09-23T10:10:00 Repeated status request 1
+E07 2026-09-23T10:15:00 Repeated status request 2
+E08 2026-09-23T10:20:00 Repeated status request 3
+E09 2026-09-23T10:25:00 Large HTTP POST; content not available
+Evidence flags: Office child process = True | Run key = True | POST = True
+Assessment: investigate linked activity; theft and actor attribution unconfirmed.
+Next: preserve evidence, inspect endpoint and proxy data, assess isolation.

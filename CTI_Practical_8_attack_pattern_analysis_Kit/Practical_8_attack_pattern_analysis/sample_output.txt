@@ -1,0 +1,13 @@
+PRACTICAL 8 — ATTACK PATTERN, HOST WS-25
+10:00:00 E01 email Suspicious email with invoice.docm attachment delivered
+10:03:00 E02 process WINWORD.EXE launched powershell.exe
+10:04:00 E03 file Script file observed in Public folder; hash is a fictional exercise value
+10:05:00 E04 registry Run key pointing to Public folder script observed
+10:07:00 E05 network HTTP GET to simulated destination
+10:10:00 E06 network Repeated status request 1
+10:15:00 E07 network Repeated status request 2
+10:20:00 E08 network Repeated status request 3
+10:25:00 E09 network Large HTTP POST; content not available
+Status request gaps in minutes: [5, 5]
+Outbound POST bytes: 4200000
+Pattern is suspicious; beaconing and exfiltration remain hypotheses.

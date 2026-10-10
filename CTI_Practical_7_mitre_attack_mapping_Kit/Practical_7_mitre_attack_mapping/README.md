@@ -1,0 +1,26 @@
+# Practical 7 MITRE ATT&CK Mapping
+
+## Aim
+Assign technique IDs to logged behaviors, attach evidence IDs, and distinguish observation from hypothesis.
+
+## Requirements and contents
+Python 3.9 or newer; no third-party package, account, SIEM server, internet connection, or live malware. This kit is standalone. Files: run_lab.py, events.jsonl, sample_output.txt, worksheet.md, instructor_key.md. All data and threat labels are fictional; addresses are reserved documentation examples.
+
+## Run the demonstration
+1. Extract this ZIP. Keep the files together in its extracted folder.
+2. Open a terminal in that folder. Run `python run_lab.py` (on some systems use `python3 run_lab.py`).
+3. Compare the result with `sample_output.txt`. If the Python command is unavailable, verify Python 3.9+ is installed and use its configured command.
+4. Open the inputs in a text editor or spreadsheet and trace every claim to the relevant records.
+5. Complete `worksheet.md`, then try the extension task below.
+
+## Expected analytical result
+E02 -> T1059.001 observed; E04 -> T1547.001 observed; E01 -> T1566.001 candidate; E09 -> T1041 hypothesis.
+
+## Extension task
+Find why E10 is intentionally excluded from the C2 mapping; write one alternative explanation for E09.
+
+## Submission
+Submit the filled worksheet, a terminal transcript or screenshot, the changed parameters and output for the extension, and a short paragraph distinguishing observed evidence from inference.
+
+## Important limitation
+This is an offline simulation. An IoC match, ATT&CK label, timing pattern or file hash does not on its own confirm a compromise, malware family, named actor or data theft.
